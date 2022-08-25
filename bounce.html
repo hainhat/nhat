@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bounce.css" />
+    <link rel="icon" href="images/ball.png">
+    <title>Bounce</title>
+  </head>
+  <body>
+    <header class="container">
+      <div class="flex">
+        <div>
+          <img src="images/logo.png" alt="gaming" />
+        </div>
+        <h1>WEBSITE GAMING SỐ 1<br />THẾ GIỚI</h1>
+        <div class="wrap">
+          <form class="search">
+            <input
+              type="text"
+              class="searchTerm"
+              placeholder="Bạn muốn tìm game gì?"
+            />
+            <button type="submit" class="searchButton">Tìm kiếm</button>
+          </form>
+        </div>
+        <div class="flex">
+          <ul class="sign">
+            <li><a href="login.html">Đăng ký</a></li>
+            <li><a href="login.html">Đăng nhập</a></li>
+            <li><a href="index.html" id="reload">Trang chủ</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="game">
+      <div id="myBall">
+        <img id="ball" src="images/ball.png" />
+      </div>
+      <input type="button" onclick="play()" value="Play" />
+      <input type="button" onclick="stop()" value="Stop" />
+      <script src="bounce.js"></script>
+    </div>
+  </body>
+</html>

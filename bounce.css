@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+header {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 25px;
+}
+header > h1 {
+  font-size: 1.5rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+div > img {
+  width: 150px;
+}
+.searchTerm {
+  border: 3px solid #00b4cc;
+  padding: 12.5px;
+  margin-left: 20px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  color: black;
+}
+.warp {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.searchButton {
+  border: 2px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  padding: 5px;
+}
+ul.sign {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  margin: auto 1px auto 80px;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  justify-items: center;
+  border-radius: 15px;
+}
+ul.sign > li {
+  border-right: 3px solid gray;
+  text-align: center;
+}
+ul.sign > li > a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+ul.sign > li > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.game {
+  text-align: center;
+}
+#myBall {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 50%;
+  height: 300px;
+  background-color: lightgray;
+  position: relative;
+  padding: 0;
+  margin: 30px auto 15px;
+}
+
+#ball {
+  width: 80px;
+  position: absolute;
+}
+.game > input {
+  width: 100px;
+  height: 50px;
+  margin: 3.5px;
+  border-radius: 15px;
+}
